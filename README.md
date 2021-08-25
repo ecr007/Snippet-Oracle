@@ -1,1 +1,5 @@
-# Conocer-el-HostName-en-Oracle
+# Conocer el Host Name en Oracle
+
+```sql
+SELECT host_name FROM v$instance;
+```
